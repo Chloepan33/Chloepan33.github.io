@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <link rel="stylesheet" href="css/styles.css">
@@ -7,60 +7,70 @@
 </head>
 
 <body>
+    <!-- Navigation -->
     <nav>
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="resume.pdf">Resume</a></li>
-            <li><a href="/project">Projects</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li><a href="/" aria-label="Home">Home</a></li>
+            <li><a href="/about" aria-label="About">About</a></li>
+            <li><a href="resume.pdf" target="_blank" aria-label="Resume">Resume</a></li>
+            <li><a href="/project" aria-label="Projects">Projects</a></li>
+            <li><a href="/blog" aria-label="Blog">Blog</a></li>
         </ul>
     </nav>
 
-    <div>
-        <h1> Zhiyu Pan </h1>
-        <img src="zhiyu_pan.jpg" alt="Zhiyu Pan's Portrait">
-    </div>
-    </div>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1>Zhiyu Pan</h1>
+            <p class="tagline">Aspiring Software Developer | Technology Enthusiast | Cat Lover</p>
+            <img src="zhiyu_pan.jpg" alt="Zhiyu Pan's Portrait">
+        </div>
+    </header>
 
+    <!-- Main Content -->
     <main>
-        <h2>About me</h2>
-        <p>
-            Born in a small town in the southeast part of China, now pursuing a Bachelor of Science degree in Computer
-            Science at the University of Toronto, Scarborough. Currently looking for a software development internship
-            and research opportunities in the computer science field.
-            A passionate learner of new technologies, lifestyles, and the world as a whole.
-            Hoping to make a positive impact in the world through communication, collaboration, and dedication.
-            A cat person who also enjoy skiing, watching musicals and gardening.
-        </p>
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Born in a small town in the southeast part of China, I am now pursuing a Bachelor of Science degree in Computer
+                Science at the University of Toronto, Scarborough. Currently seeking a software development internship
+                and research opportunities in the computer science field. I am a passionate learner of new technologies, 
+                lifestyles, and the world as a whole, hoping to make a positive impact through communication, collaboration, 
+                and dedication. A cat person who also enjoys skiing, watching musicals, and gardening.
+            </p>
+        </section>
 
-        <h2>Resume</h2>
-        <p>
-            <a href="resume.pdf">Click here</a> to view my resume.
-        </p>
+        <!-- Resume Section -->
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>
+                <a href="resume.pdf" target="_blank">Click here</a> to view my resume.
+            </p>
+        </section>
 
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="#">System Monitoring Tool</a></li>
-            <li><a href="#">System-Wide FD-Tables Tool</a></li>
-            <li><a href="#">News Article Categorization Model</a></li>
-            <li><a href="#">Course Planning Application</a></li>
-            <li><a href="#">Reddit Sentiment Analysis</a></li>
-        </ul>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#" aria-label="Course Planning Application">Course Planning Application</a> - An app to help students plan their course schedules effectively.</li>
+                <li><a href="#" aria-label="Reddit Sentiment Analysis">Reddit Sentiment Analysis</a> - An analysis tool to determine the sentiment of Reddit posts.</li>
+                <li><a href="#" aria-label="System Monitoring Tool">System Monitoring Tool</a> - A tool to monitor system performance metrics.</li>
+                <li><a href="#" aria-label="System-Wide FD-Tables Tool">System-Wide FD-Tables Tool</a> - A program to manage file descriptor tables across multiple systems.</li>
+                <li><a href="#" aria-label="News Article Categorization Model">News Article Categorization Model</a> - Machine learning model to categorize news articles.</li>
+                 </ul>
+        </section>
 
-    
     </main>
 
-    <!-- <div class=”container”>
-        <div class=”blurb”>
-            <h1>Hi, I am Zhiyu Pan!</h1>
-            <p>This is my first page for my personal website!</a></p>
-        </div>
-    </div> -->
+    <!-- Footer -->
     <footer>
         <ul>
             <li><a href="mailto:zypan03@gmail.com">zypan03@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/zhiyu-pan-chloe333" target="_blank" aria-label="LinkedIn">LinkedIn</a></li>
+            <li><a href="https://github.com/chloepan33" target="_blank" aria-label="GitHub">GitHub</a></li>
         </ul>
+        <p>&copy; 2024 Zhiyu Pan. All rights reserved.</p>
     </footer>
 </body>
 
